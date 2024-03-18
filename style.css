@@ -738,6 +738,23 @@ padding: 8vw;
 
 
 
+#course {
+  overflow-y: hidden;
+}
+
+
+
+#course .courses{
+  overflow-y: hidden;
+}
+
+
+
+
+
+
+
+
 
 /* Course_inner */
 
@@ -1116,6 +1133,7 @@ nav .navigation ul li a{
 
 #course{
   padding: 8vw 4vw 0 4vw;
+  overflow-y: hidden;
 }
 
 #course .courses{
@@ -1247,6 +1265,7 @@ padding: 8vw 4vw;
 
   #course{
     padding-bottom: 4vw;
+    overflow-y: hidden;  
   }
 
   #course .courses{
@@ -1405,8 +1424,9 @@ padding: 8vw 4vw;
 
   #course{
     padding-bottom: 4vw;
+    overflow-y: hidden;
   }
-  
+
   #course .courses{
     overflow-y: hidden;
   }
