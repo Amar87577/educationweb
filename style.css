@@ -525,8 +525,7 @@ color: #fdc938;
   }
 
   footer .copyright .pro-links{
-    margin-top:-80px;
-
+    overflow-y: hidden!important;
 
   }
 
@@ -1153,6 +1152,14 @@ nav .navigation ul li a{
 }
 
 
+footer .copyright .pro-links{
+  margin-top:-50px;
+  overflow-y: hidden!important;
+
+}
+
+
+
 
 /* About Us */
 #about-container{
@@ -1236,15 +1243,6 @@ padding: 8vw 4vw;
 
 
 
-
-
-
-
-
-
-
-
-
 @media (max-width: 475px) {
   #registration{
     display: flex;
@@ -1284,10 +1282,25 @@ padding: 8vw 4vw;
     text-align: center;
   }
 
-  footer .copyright .pro-links{
-    margin-bottom:-30px;
+  footer .copyright{
+    flex-direction:column-reverse;
+    overflow-y: hidden;
   }
 
+  footer .copyright .pro-links {
+    margin-left:0px;
+    margin-top:10px;
+    margin-bottom:100px;
+  }
+
+    
+     footer .copyright .footer-fulldate{
+      margin-left:0px;
+      margin-top:-50px;
+      margin-bottom:20px;
+      
+       }
+      
 
   #home .btn{
     display: flex;
@@ -1431,5 +1444,23 @@ padding: 8vw 4vw;
     overflow-y: hidden;
   }
   
+  footer .copyright{
+    flex-direction:column-reverse;
+    overflow-y: hidden;
+  }
+
+  footer .copyright .pro-links {
+    margin-left:0px;
+    margin-top:10px;
+    margin-bottom:100px;
+  }
+
+    
+     footer .copyright .footer-fulldate{
+      margin-left:0px;
+      margin-top:-50px;
+      margin-bottom:20px;
+      
+       }
 
 }
