@@ -1120,6 +1120,7 @@ nav .navigation ul li a{
 
 #course .courses{
   overflow-y: hidden;
+  padding-bottom:4vw;
 }
 
 
@@ -1242,6 +1243,10 @@ padding: 8vw 4vw;
     align-items: center;
     margin:20px 0;
 
+  }
+
+  #course{
+    padding-bottom: 4vw;
   }
 
   #course .courses{
@@ -1398,6 +1403,10 @@ padding: 8vw 4vw;
     margin-bottom: 20px;
   }
 
+  #course{
+    padding-bottom: 4vw;
+  }
+  
   #course .courses{
     overflow-y: hidden;
   }
